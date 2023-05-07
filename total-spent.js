@@ -31,8 +31,10 @@ function calculate(next){
 			console.log('CALCULATE COMPLETED');
 			var grandTotal = Math.round(total * 100) / 100;
 			console.log('TOTAL SPENT: RM ' + grandTotal);
-
-			navbarLink.innerHTML="Grand Total: RM " + grandTotal;
+			navbarLink.innerHTML="<span class='blink'> TOTAL SPENT: RM " + grandTotal + "</span>";
+			navbarLink.style.fontWeight = "bold";
+			
+			
 		}
 	});
 }
