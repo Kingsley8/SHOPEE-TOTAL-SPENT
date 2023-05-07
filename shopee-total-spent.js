@@ -19,7 +19,7 @@ function calculate(next){
 			}
 			calculate(next_offset);
 		} else {
-			alert("Calculation Completed \n GRAND TOTAL: RM + " Math.round(total * 100) / 100);
+			alert("SHOPEE TOTAL SPENT \nGRAND TOTAL: RM " + Math.round(total * 100) / 100);
 		}
 	});
 }
