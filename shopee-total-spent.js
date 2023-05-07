@@ -19,8 +19,7 @@ function calculate(next){
 			}
 			calculate(next_offset);
 		} else {
-			alert.log('Calculation completed!');
-			console.log('GRAND TOTAL: RM ' + Math.round(total * 100) / 100);
+			alert('Calculation Completed \n GRAND TOTAL: RM ' + Math.round(total * 100) / 100');
 		}
 	});
 }
